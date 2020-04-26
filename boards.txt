@@ -3094,6 +3094,101 @@ heltec_wireless_stick.menu.DebugLevel.verbose.build.code_debug=5
 
 ##############################################################
 
+heltec_wireless_stick_lite.name=Wireless Stick Lite
+
+heltec_wireless_stick_lite.upload.tool=esptool_py
+heltec_wireless_stick_lite.upload.maximum_size=1310720
+heltec_wireless_stick_lite.upload.maximum_data_size=327680
+heltec_wireless_stick_lite.upload.wait_for_upload_port=true
+
+heltec_wireless_stick_lite.serial.disableDTR=true
+heltec_wireless_stick_lite.serial.disableRTS=true
+
+heltec_wireless_stick_lite.build.mcu=esp32
+heltec_wireless_stick_lite.build.core=esp32
+heltec_wireless_stick_lite.build.variant=heltec_wireless_stick_lite
+heltec_wireless_stick_lite.build.board=HELTEC_WIRELESS_STICK_LITE
+
+heltec_wireless_stick_lite.build.f_cpu=240000000L
+heltec_wireless_stick_lite.build.flash_size=4MB
+heltec_wireless_stick_lite.build.flash_freq=80m
+heltec_wireless_stick_lite.build.flash_mode=dio
+heltec_wireless_stick_lite.build.boot=dio
+heltec_wireless_stick_lite.build.partitions=default
+heltec_wireless_stick_lite.build.defines=
+
+heltec_wireless_stick_lite.menu.PSRAM.disabled=Disabled
+heltec_wireless_stick_lite.menu.PSRAM.disabled.build.defines=
+heltec_wireless_stick_lite.menu.PSRAM.enabled=Enabled
+heltec_wireless_stick_lite.menu.PSRAM.enabled.build.defines=-DBOARD_HAS_PSRAM -mfix-esp32-psram-cache-issue
+
+heltec_wireless_stick_lite.menu.CPUFreq.240=240MHz (WiFi/BT)
+heltec_wireless_stick_lite.menu.CPUFreq.240.build.f_cpu=240000000L
+heltec_wireless_stick_lite.menu.CPUFreq.160=160MHz (WiFi/BT)
+heltec_wireless_stick_lite.menu.CPUFreq.160.build.f_cpu=160000000L
+heltec_wireless_stick_lite.menu.CPUFreq.80=80MHz (WiFi/BT)
+heltec_wireless_stick_lite.menu.CPUFreq.80.build.f_cpu=80000000L
+
+heltec_wireless_stick_lite.menu.UploadSpeed.921600=921600
+heltec_wireless_stick_lite.menu.UploadSpeed.921600.upload.speed=921600
+heltec_wireless_stick_lite.menu.UploadSpeed.115200=115200
+heltec_wireless_stick_lite.menu.UploadSpeed.115200.upload.speed=115200
+heltec_wireless_stick_lite.menu.UploadSpeed.256000.windows=256000
+heltec_wireless_stick_lite.menu.UploadSpeed.256000.upload.speed=256000
+heltec_wireless_stick_lite.menu.UploadSpeed.230400.windows.upload.speed=256000
+heltec_wireless_stick_lite.menu.UploadSpeed.230400=230400
+heltec_wireless_stick_lite.menu.UploadSpeed.230400.upload.speed=230400
+heltec_wireless_stick_lite.menu.UploadSpeed.460800.linux=460800
+heltec_wireless_stick_lite.menu.UploadSpeed.460800.macosx=460800
+heltec_wireless_stick_lite.menu.UploadSpeed.460800.upload.speed=460800
+heltec_wireless_stick_lite.menu.UploadSpeed.512000.windows=512000
+heltec_wireless_stick_lite.menu.UploadSpeed.512000.upload.speed=512000
+
+heltec_wireless_stick_lite.menu.DebugLevel.none=None
+heltec_wireless_stick_lite.menu.DebugLevel.none.build.code_debug=0
+heltec_wireless_stick_lite.menu.DebugLevel.error=Error
+heltec_wireless_stick_lite.menu.DebugLevel.error.build.code_debug=1
+heltec_wireless_stick_lite.menu.DebugLevel.warn=Warn
+heltec_wireless_stick_lite.menu.DebugLevel.warn.build.code_debug=2
+heltec_wireless_stick_lite.menu.DebugLevel.info=Info
+heltec_wireless_stick_lite.menu.DebugLevel.info.build.code_debug=3
+heltec_wireless_stick_lite.menu.DebugLevel.debug=Debug
+heltec_wireless_stick_lite.menu.DebugLevel.debug.build.code_debug=4
+heltec_wireless_stick_lite.menu.DebugLevel.verbose=Verbose
+heltec_wireless_stick_lite.menu.DebugLevel.verbose.build.code_debug=5
+
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.0=REGION_EU868
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.0.build.band=REGION_EU868
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.1=REGION_EU433
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.1.build.band=REGION_EU433
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.2=REGION_CN470
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.2.build.band=REGION_CN470
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.3=REGION_US915
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.3.build.band=REGION_US915
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.4=REGION_AU915
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.4.build.band=REGION_AU915
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.5=REGION_CN779
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.5.build.band=REGION_CN779
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.6=REGION_AS923
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.6.build.band=REGION_AS923
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.7=REGION_KR920
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.7.build.band=REGION_KR920
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.8=REGION_IN865
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.8.build.band=REGION_IN865
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.9=REGION_US915_HYBRID
+heltec_wireless_stick_lite.menu.LORAWAN_REGION.9.build.band=REGION_US915_HYBRID
+
+heltec_wireless_stick_lite.menu.LoRaWanDebugLevel.0=None
+heltec_wireless_stick_lite.menu.LoRaWanDebugLevel.0.build.LoRaWanDebugLevel=0
+heltec_wireless_stick_lite.menu.LoRaWanDebugLevel.1=Freq
+heltec_wireless_stick_lite.menu.LoRaWanDebugLevel.1.build.LoRaWanDebugLevel=1
+heltec_wireless_stick_lite.menu.LoRaWanDebugLevel.2=Freq && DIO
+heltec_wireless_stick_lite.menu.LoRaWanDebugLevel.2.build.LoRaWanDebugLevel=2
+heltec_wireless_stick_lite.menu.LoRaWanDebugLevel.3=Freq && DIO && PW
+heltec_wireless_stick_lite.menu.LoRaWanDebugLevel.3.build.LoRaWanDebugLevel=3
+
+##############################################################
+
 espectro32.name=ESPectro32
 
 espectro32.upload.tool=esptool_py

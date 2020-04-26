@@ -3122,6 +3122,10 @@ heltec_wireless_stick_lite.menu.PSRAM.disabled.build.defines=
 heltec_wireless_stick_lite.menu.PSRAM.enabled=Enabled
 heltec_wireless_stick_lite.menu.PSRAM.enabled.build.defines=-DBOARD_HAS_PSRAM -mfix-esp32-psram-cache-issue
 
+heltec_wireless_stick.menu.PartitionScheme.default=default
+heltec_wireless_stick.menu.PartitionScheme.default.build.partitions=default
+heltec_wireless_stick.menu.PartitionScheme.default.upload.maximum_size=3342336
+
 heltec_wireless_stick_lite.menu.CPUFreq.240=240MHz (WiFi/BT)
 heltec_wireless_stick_lite.menu.CPUFreq.240.build.f_cpu=240000000L
 heltec_wireless_stick_lite.menu.CPUFreq.160=160MHz (WiFi/BT)
